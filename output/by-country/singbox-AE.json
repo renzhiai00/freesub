@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "a85d3eb0-c71e-4086-8139-6ac7c9120389",
+      "uuid": "70bd60b1-f399-4df4-ad32-9adc40ae5f2c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -27,17 +27,13 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "server": "31.56.189.27",
+      "server": "srv-21bac9.vless.monster",
       "server_port": 2087,
       "uuid": "df9f5aca-eda0-428f-a752-e53866153d12",
       "tls": {
         "enabled": true,
         "server_name": "srv-21bac9.vless.monster",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "grpc",
@@ -83,7 +79,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": true
+        "insecure": false
       }
     },
     {
