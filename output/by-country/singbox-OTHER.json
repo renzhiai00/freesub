@@ -4,21 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "password": "humanity",
+      "server": "cf9.danfeng.eu.org",
+      "server_port": 2096,
+      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
-        "insecure": false
+        "server_name": "vip.868068.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "vip.868068.xyz"
         }
       }
     },
