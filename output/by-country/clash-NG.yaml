@@ -4,28 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇶 IQ 01 - xiaohe
-  server: 104.17.147.22
+- name: 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
+  server: 103.97.91.17
   port: 443
   udp: true
   type: trojan
-  password: Telegram_healer_config
-  sni: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  sni: la.freeguard.org
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇶 IQ 01 - xiaohe
+  - 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
 rules:
 - MATCH,PROXIES
