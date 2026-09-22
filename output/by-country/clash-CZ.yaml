@@ -17,17 +17,19 @@ proxies:
   servername: us04.mcloud.mov
   client-fingerprint: safari
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 95.85.230.35
+  server: 194.156.26.45
   port: 443
   udp: true
   type: vless
-  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
-  flow: xtls-rprx-vision
+  uuid: 6bef6685-e989-467c-8fea-7fa1c6a0af2c
   tls: true
-  reality-opts:
-    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
-  servername: de.oblaco.bet
-  client-fingerprint: chrome
+  servername: LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /vl/BBj8crirrHMxntD7H3o3z
+    headers:
+      Host: LZc2j8i5PteXj5I7Aq0hFxQadvZcq.wF99sAF201Sfs9.wOrKers.dev
 proxy-groups:
 - name: PROXIES
   type: select

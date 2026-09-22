@@ -6,23 +6,23 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "cf9.danfeng.eu.org",
-      "server_port": 2096,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
+      "server": "104.21.16.74",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
       "tls": {
         "enabled": true,
-        "server_name": "vip.868068.xyz",
+        "server_name": "0-m13.378Bb7ff-11CF-4dAD-B89E-72538AC75e29.KDNS.Fr",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
-        "path": "/proxyip=us.xiabibi.cf",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
         "headers": {
-          "Host": "vip.868068.xyz"
+          "Host": "0-m13.378Bb7ff-11CF-4dAD-B89E-72538AC75e29.KDNS.Fr"
         }
       }
     },
